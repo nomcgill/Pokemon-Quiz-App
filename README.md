@@ -11,5 +11,5 @@ The app is simple in scope. It's purpose is to display the fundamentals of front
 
 ## Screenshots
 
-![Screenshot 1](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "First Screenshot of App")
-![Screenshot 2](http://www.brightlightpictures.com/assets/images/portfolio/thethaw_header.jpg "Second Screenshot of App")
+![Screenshot 1](https://github.com/nomcgill/Pokemon-Quiz-App/blob/master/Pokemon%20App%20Screenshot1.jpg?raw=true "First Screenshot of App")
+![Screenshot 2](https://github.com/nomcgill/Pokemon-Quiz-App/blob/master/Pokemon%20App%20Screenshot.jpg?raw=true "Second Screenshot of App")
