@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+font-family: 'Lato', sans-serif;
+ background: url("https://wallup.net/wp-content/uploads/2016/05/24/143432-nature-Pokemon.jpg");
+  background-attachment: fixed;
+  background-size: auto 100%;
+  padding: 15px;
+}
+
+h3 {
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button {
+display: block;
+margin: auto;
+width: 40%;
+min-width: 100px;
+border: none;
+padding: 10px;
+margin-top: 4px;
+transition: all 0.3s ease;
+font-size: 100%;
+margin-bottom: 10px;
+background-color: rgb(17, 17, 107);
+color: white;
+font-family: inherit;
+cursor: pointer;
+}
+
+button:active {
+background-color: white;
+border: 3px solid black;
+color: black;
+}
+
+label.answerOption {
+  display: block;
+  padding: 0px;
+  width: 100%;
+}
+
+label.answerOption span {
+  transition: all 0.3s ease;
+  padding: 15px;
+  display: block;
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+label.answerOption span:hover {
+  background-color: darkred;
+  color: white;
+  cursor:pointer;
+}
+
+input[type=radio]:checked + span {
+  font-size: 140%;
+  background-color: darkred;
+  color:white;
+  font-weight: bold;
+}
+
+
+label.answerOption span:
+
+input:focus { 
+  background-color: darkblue;
+  } 
+
+
+header * {
+ margin: auto; 
+ /* background-color: white */
+ /* margin: auto; */
+ max-width: 600px;
+}
+
+.container {
+  margin: auto;
+  height: 100%;
+}
+
+.questionAnswerForm > div { 
+  /* position: relative; */
+  height: 100%;
+  /* border: 2px solid red; */
+}
+
+h2 {
+  position:absolute;
+  bottom: 0;
+  border: 5px double black;
+  height: 5.5em;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+p b, p {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.header-text-container {
+  /* margin: auto; */
+  color: white;
+  text-shadow: rgb(48, 48, 48) 1px 2px 10px;
+  text-align: center;
+  line-height: 240%;
+  display: flex;
+}
+
+header ul li {
+    padding: 10px 20px;
+    list-style: none;
+    display: inline-block;
+}
+
+main {
+  margin:auto;
+  width: 80%;
+  /* position: relative; */
+  /* background-color: green; */
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 100%;
+}
+
+.logo {
+  /* overflow: auto; */
+  height: 70px;
+}
+
+.pokemon {
+  height: 50px;
+  margin: auto;
+  display: block;
+  padding: -5px;
+}
+
+h2 {
+  padding: 12px;
+  vertical-align: text-bottom;
+}
+
+fieldset {
+  /* background-color: red; */
+  border: none;
+  width: 100%;
+}
+
+form {
+  width: 100%;
+}
+
+label:hover, label:focus {
+    background-color:dark-red;
+}
+
+input {
+  opacity: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 44%;
+}
+
+.small-oak {
+  margin:auto;
+  height: 190px;
+  /* padding: 30px; */
+  display: block;
+}
+
+.large-oak {
+  position: fixed;
+  bottom: 10%;
+  right: 6%;
+  height: 320px;
+}
+
+.answer {
+  padding: 20px;
+}
+
+.question {
+  padding: 10px;
+  border: 5px double black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px;
+  /* z-index: 1; */
+}
+
+* > main {
+  position: relative;
+  /* display: block; */
+}
+
+main{
+  box-shadow: 5px 5px 5px gray;
+  margin-top: 14px;
+  background-color: rgba(255, 255, 255, 0.829);
+  border: 4px solid black;
+  max-width: 580px;
+  min-height: 390px;
+  display: block;
+}
+
+.questionAnswerForm {
+  display: block;
+}
+
+.picture {
+  text-align: center;
+}
+
+.picture > img {
+  max-height: 50%;
+  width: 50%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 640px) {
+   .logo {
+        height: 55px;
+        /* display: block; */
+        margin: auto;
+    }
+
+  .question {
+      height: 90px;
+  }
+
+    header ul {
+        margin: 10px;
+        text-align: center
+    }
+    
+    header ul li {
+        padding: 10px;
+    }
+
+    .quizStart {
+        width: 100%;
+        margin-top: 0
+    }
+    
+    .large-oak{
+      display: block;
+    }
+}
+
+@media only screen and (max-width: 640px){
+  .large-oak {
+    display: none;
+  }
+  }
+
+@media only screen and (max-width: 300px) {
+    .small-oak, .logo {
+      display: none;
+    }
+    * {
+      font-size: .9em;
+    }
+    
+    h2 {
+      padding: 0;
+    }
+}
+
+@media only screen and (max-width: 385px) {
+    .small-oak {
+      height: 150px;
+    }
+
+    .questionAnswerForm h2 {
+      line-height: 100%
+    }
+}
+
+@media only screen and (min-width: 640px){
+  .small-oak{
+    display: none;
+  }
+  .pokemon{
+    height: 120px;
+  }
+}
+
+@media only screen and (max-width: 850px){
+  .large-oak{
+    height: 200px;
+  }
+}
