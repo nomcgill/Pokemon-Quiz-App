@@ -9,7 +9,6 @@ The app is simple in scope. It's purpose is to display the fundamentals of front
 * CSS Responsive Styling
 * HTML a11y practices and semantic formatting
 
-## Screenshots
+## Screenshot
 
 ![Screenshot 1](https://github.com/nomcgill/Pokemon-Quiz-App/blob/master/Pokemon%20App%20Screenshot1.jpg?raw=true "First Screenshot of App")
-![Screenshot 2](https://github.com/nomcgill/Pokemon-Quiz-App/blob/master/Pokemon%20App%20Screenshot.jpg?raw=true "Second Screenshot of App")
